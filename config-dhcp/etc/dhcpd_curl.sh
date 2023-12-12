@@ -18,8 +18,9 @@ echo $STRING
 #headerToken=""
 OWNER="PauAlumnesS2I"
 REPO="s2i-sxi-ci-grup06"
-PATHFILE="tree/main/config-dhcp/etc/dhcp/dhcpd.conf"
-f_dchpd_conf="https://github.com/$OWNER/$REPO/$PATHFILE"
+PATHFILE="main/config-dhcp/etc/dhcp/dhcpd.conf"
+f_dchpd_conf="https://raw.githubusercontent.com/$OWNER/$REPO/$PATHFILE"
+
 
 #https://raw.githubusercontent.com/$OWNER/$REPO/$PATHFILE
 
